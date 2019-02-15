@@ -9,13 +9,13 @@ function setup() {
 function draw() {
 	stroke('#FF5733');
 	fill(change);
-	ellipse(mouseX, mouseY, 50, 50);
+	ellipse(mouseX, mouseY, 20, 20);
 }
 
 function mousePressed() {
- // if (change == true) {
+ 
     change = 255;
-//  }
+
 }
 
 function mouseReleased(){
