@@ -14,9 +14,9 @@ let img,img1,img2;
 
 
 function preload() {
-	img=loadImage('nombre2.png');
-	img1=loadImage('behance.png');
-	img2=loadImage('open.png');
+	//img=loadImage('nombre2.png');
+	//img1=loadImage('behance.png');
+	//img2=loadImage('open.png');
 }
 
 function setup() {
