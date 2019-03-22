@@ -102,10 +102,10 @@ function draw() {
     rotacion.move4();
   }
 	//tint(255,255,255);
-	image(img1,500,300);
-	image(img,240,50);
+	//image(img1,500,300);
+	//image(img,240,50);
 	//tint(0,100,200,126);
-	image(img2,0,300);
+	//image(img2,0,300);
 	
 	
 	
