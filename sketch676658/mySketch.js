@@ -13,11 +13,11 @@ q=300;
 let img,img1,img2;
 
 
-function preload() {
+//function preload() {
 	//img=loadImage('nombre2.png');
 	//img1=loadImage('behance.png');
 	//img2=loadImage('open.png');
-}
+//}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
