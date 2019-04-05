@@ -13,11 +13,11 @@ q=300;
 let img,img1,img2;
 
 
-function preload() {
-	img=loadImage('nombre2.png');
-	img1=loadImage('behance.png');
-	img2=loadImage('open.png');
-}
+//function preload() {
+	//img=loadImage('nombre2.png');
+	//img1=loadImage('behance.png');
+	//img2=loadImage('open.png');
+//}
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -103,54 +103,10 @@ function draw() {
   }
 	//tint(255,255,255);
 	//image(img1,500,300);
-	image(img,280,90);
+	//image(img,240,50);
 	//tint(0,100,200,126);
 	//image(img2,0,300);
-	texto();
-
-}
-function texto(){
-	noStroke();
-	
-	fill(254, 247, 229,190);
-	textFont('Gotham');
-	textAlign(CENTER);
-	textStyle(BOLD);
-	textSize(25);
-	//text("Jessi Velandia", width/2, height - 4*(height/11) );
 	
 	
-	if(mouseIsPressed){
-		fill(255,170,0,170);
-	}
-	else{
-		//fill(245,245,220,170);
-		fill(254, 247, 229,190);
-	}
 	
-	//textStyle(NORMAL);
-	textSize(20);
-	text("OpenProcessing", width/2, height - 3*(height/11) );
-	//noFill();
-	//stroke(254, 247, 229,190);
-	fill(255,170,0,30);
-	rect(width/2-200,height - 3*(height/11)-30,400,50);
-	fill(254, 247, 229,190);
-	
-	
-	text("Behance", width/2, height - 2*(height/11) );
-	fill(255,170,0,30);
-	rect(width/2-200,height - 2*(height/11)-30,400,50);
-	fill(254, 247, 229,190);
-	
-	
-}
-function mousePressed(){
-	if(mouseX > (width/2-200) && mouseX <(width/2+200) && mouseY> (height - 3*(height/11)-30) && mouseY<(height - 3*(height/11)+20) ){
-		window.open('https://www.openprocessing.org/user/122159');
-	}
-	if(mouseX> (width/2-200) && mouseX<(width/2+200) && mouseY> (height - 2*(height/11)-30) && mouseY<(height - 2*(height/11)+20) ){
-		window.open('https://www.behance.net/jessigizeh');
-	}
-
 }
