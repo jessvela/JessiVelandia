@@ -16,6 +16,7 @@ div.titulo {
    position:absolute;
   top:50px;
   left:500px;
+   text-align: center;
   
 }
 
@@ -26,6 +27,7 @@ div.titulo {
   font-size:60px;
   position:absolute;
   font-family:Calligraffiti , cursive;
+   text-align: center;
 }
 
 
@@ -37,4 +39,5 @@ div.titulo {
   top: 150px;
   left:300px;
   font-family:Calligraffiti , cursive;
+   text-align: center;
 }
