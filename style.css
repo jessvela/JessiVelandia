@@ -4,7 +4,9 @@ html, body {
 }
 canvas {
   display: block;
-  
+   position:fixed;
+  top:0px;
+  z-index:-1;
 }
 
 div.titulo {
