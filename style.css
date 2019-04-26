@@ -4,7 +4,7 @@ html, body {
 }
 canvas {
   display: block;
-   position:fixed;
+  position:fixed;
   top:0px;
   z-index:-1;
 }
@@ -15,7 +15,7 @@ div.titulo {
   font-family:Calligraffiti , cursive;
   color: white;
   font-size: 50px;
-   position:absolute;
+
   top:50px;
   left:500px;
    text-align: center;
@@ -27,7 +27,7 @@ div.titulo {
   background-color:white;
   margin: 10px;
   font-size:60px;
-  position:absolute;
+ 
   font-family:Calligraffiti , cursive;
    text-align: center;
 }
@@ -37,7 +37,7 @@ div.titulo {
   
   color: white;
   font-size: 90px;
-  position: absolute;
+ 
   top: 150px;
   left:300px;
   font-family:Calligraffiti , cursive;
