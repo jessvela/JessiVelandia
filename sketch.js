@@ -112,7 +112,9 @@ function draw() {
 		
   
 }      
-
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
 function on_button_click(){
   window.open('https://www.behance.net/jessigizeh');
 }
