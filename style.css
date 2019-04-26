@@ -13,7 +13,7 @@ div.titulo {
   font-family:Calligraffiti , cursive;
   color: white;
   font-size: 50px;
-   position:fixed;
+   position:absolute;
   top:50px;
   left:500px;
   
@@ -24,7 +24,7 @@ div.titulo {
   background-color:white;
   margin: 10px;
   font-size:60px;
-  position:fixed;
+  position:absolute;
   font-family:Calligraffiti , cursive;
 }
 
@@ -33,8 +33,7 @@ div.titulo {
   
   color: white;
   font-size: 90px;
-  font-family: monospace;
-  position: fixed;
+  position: absolute;
   top: 150px;
   left:300px;
   font-family:Calligraffiti , cursive;
