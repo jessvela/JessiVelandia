@@ -32,8 +32,8 @@ function setup() {
   button2.addClass("botones-vinculo");
   button3.addClass("botones-vinculo");
   button.position(480,400);
-  button2.position(400,500);
-  button3.position(505,600);
+  button2.position(400,600);
+  button3.position(505,800);
   button.mousePressed(on_button_click);
   button2.mousePressed(on_button_click2);
   button3.mousePressed(on_button_click3);
