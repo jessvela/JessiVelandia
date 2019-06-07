@@ -9,7 +9,7 @@ let cambio=0;
 w=255;
 e=200;
 q=300;
-let img,img1,img2;
+
 
 
 
@@ -25,18 +25,7 @@ function setup() {
   colorC = color('#BF5E6D');
 	noCursor();
   
-  var button = createButton('Behance');
-  var button2= createButton('OpenProcessing');
-  var button3= createButton('Github');
-  button.addClass("botones-vinculo");
-  button2.addClass("botones-vinculo");
-  button3.addClass("botones-vinculo");
-  /*button.position(480,400);
-  button2.position(400,600);
-  button3.position(505,800);*/
-  button.mousePressed(on_button_click);
-  button2.mousePressed(on_button_click2);
-  button3.mousePressed(on_button_click3);
+
 }
 
 function draw() {
@@ -114,15 +103,4 @@ function draw() {
 }      
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-}
-function on_button_click(){
-  window.open('https://www.behance.net/jessigizeh');
-}
-
-function on_button_click2(){
-  window.open('https://www.openprocessing.org/user/122159/');
-}
-
-function on_button_click3(){
-  window.open('https://github.com/jessvela');
 }

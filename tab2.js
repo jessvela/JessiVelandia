@@ -72,4 +72,3 @@ class Rotar {
     this.rot= this.rot -this.speed;
   }
 }
-	
